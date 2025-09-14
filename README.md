@@ -2,7 +2,7 @@
 
 A simple and interactive Party Menu Web Application built with Next.js, designed to display menu items in a clean, responsive, and user-friendly interface.
 
-Deployed on Vercel → Live Demo
+Deployed on Vercel → https://party-menu-selection-app-wine.vercel.app/ 
 
 🚀 Features
 
@@ -41,7 +41,7 @@ party-menu-app/
 
 Clone the repo:
 
-git clone https://github.com/bachu154/party-menu-app.git
+git clone https://github.com/bachu154/Party-Menu-Selection-App.git
 
 cd party-menu-app
 
