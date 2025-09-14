@@ -1,91 +1,109 @@
-🎉 Party Menu App
+🍽️ Party Menu Selection App
 
-A simple and interactive Party Menu Web Application built with Next.js, designed to display menu items in a clean, responsive, and user-friendly interface.
+A React-based web application that allows users to explore, filter, and select dishes for a party menu. The app supports dietary filters, provides detailed ingredient popups, and keeps a running summary of selected dishes with total cost.
 
-Deployed on Vercel → https://party-menu-selection-app-wine.vercel.app/ 
+🌐 Live Demo: https://party-menu-selection-app-wine.vercel.app/
 
 🚀 Features
 
-📱 Responsive Design – Works across desktop, tablet, and mobile.
+✅ Category-based Menu – Browse dishes by categories (Starters, Main Course, Desserts, etc.).
 
-🍴 Menu Sections – Displays food/drink categories clearly.
+✅ Dietary Filters – Vegetarian / Non-Vegetarian tags for easy filtering.
 
-🎨 Clean UI – Styled to match the given design guidelines.
+✅ Dish Cards – Each card displays:
 
-⚡ Fast & Optimized – Built with Next.js for performance.
+Dish image
 
-☁️ Deployed on Vercel – Continuous deployment from GitHub.
+Dish name
+
+Price
+
+Type (Veg/Non-Veg)
+
+Buttons to Add / Remove from selection
+
+✅ Ingredient Popup – Click to view all ingredients for each dish.
+
+✅ Real-Time Summary – See all selected dishes and total cost update instantly.
+
+✅ Responsive Design – Works seamlessly on desktop, tablet, and mobile devices.
 
 🛠️ Tech Stack
 
-Framework: Next.js
+Frontend: React.js
 
-Language: JavaScript (ES6+)
+Styling: CSS (Flexbox, Media Queries)
 
-Styling: CSS / Tailwind CSS (depending on assignment)
+State Management: React Hooks (useState)
 
-Hosting: Vercel
+Deployment: Vercel
 
-📂 Project Structure
-party-menu-app/
-├── public/            # Static assets (images, icons, etc.)
-├── pages/             # Next.js pages (routes)
-│   ├── index.js       # Home page
-│   └── _app.js        # Global app config
-├── styles/            # Global and component-level styles
-├── components/        # Reusable UI components
-├── package.json       # Dependencies and scripts
-└── README.md          # Project documentation
+📸 Screenshots
+
+Home Page
+
+
+<img width="1868" height="891" alt="Screenshot (397)" src="https://github.com/user-attachments/assets/5c09da69-0f32-4e38-81ec-84aa60cd28fa" />
+
+
+Dish Card Example
+
+
+<img width="1920" height="682" alt="Screenshot (398)" src="https://github.com/user-attachments/assets/4e520777-5f29-42f0-bbc9-630401fddfd4" />
+
+
+Ingredients Popup
+
+
+<img width="842" height="687" alt="Screenshot (399)" src="https://github.com/user-attachments/assets/859bc3a1-a29b-401b-96b5-760a64494354" />
+
+
+Menu Selection Summary
+
+
+<img width="1873" height="924" alt="Screenshot (400)" src="https://github.com/user-attachments/assets/850316b9-ed13-4a50-93e1-cf0e56aaa82c" />
+
 
 ⚙️ Installation & Setup
 
-Clone the repo:
+Clone the repository
 
 git clone https://github.com/bachu154/Party-Menu-Selection-App.git
 
-cd party-menu-app
+cd Party-Menu-Selection-App
 
-Install dependencies:
+Install dependencies
 
 npm install
 
-
-Run the development server:
-
-npm run dev
-
-Build for production:
-
-npm run build
+Run the development server
 
 npm start
 
-🌐 Deployment
+Build for production
 
-This project is deployed on Vercel.
+npm run build
 
-Deployment settings used:
+📹 Demo Video
 
-Framework Preset: Next.js
+https://drive.google.com/file/d/1K80hSNg0mdVxHNcXYe0QxJpYw19M8d4O/view?usp=drive_link
 
-Root Directory: ./
+✅ Assignment Requirement Checklist
 
-Build Command: npm run build
+ Category-based menu
 
-Output Directory: .next (default)
+ Ingredient popup
 
-Install Command: npm install
+ Add/Remove dishes
 
-Deployed App → Party Menu App
+ Total cost calculation
 
-✅ Assignment Completion Checklist
+ Responsive design
 
- Implemented menu design in Next.js
+ Deployed on Vercel
 
- Responsive layout for all devices
+ Demo video attached
 
- Correct build & deploy on Vercel
+📌 Conclusion
 
- Code pushed to public GitHub repo
-
- Documentation with README.md
+This project demonstrates my ability to build responsive, interactive React applications using modern CSS and deployment practices. The Party Menu Selection App fulfills all assignment requirements and is production-ready.
