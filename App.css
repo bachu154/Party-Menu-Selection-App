@@ -1,0 +1,184 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Custom styles for the party menu app */
+.container {
+  max-width: 1200px;
+}
+
+/* Responsive design improvements */
+@media (max-width: 768px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Enhanced mobile responsiveness with comprehensive media queries */
+@media (max-width: 600px) {
+  .dish-card {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .filters {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .ingredient-modal {
+    width: 95%;
+    padding: 0;
+    margin: 1rem;
+    max-height: 95vh;
+  }
+
+  /* Mobile-specific grid adjustments */
+  .grid {
+    grid-template-columns: 1fr !important;
+    gap: 1rem;
+  }
+
+  /* Mobile header adjustments */
+  .text-4xl {
+    font-size: 2.5rem;
+  }
+
+  /* Mobile sidebar adjustments */
+  .lg\\:w-80 {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  /* Mobile button adjustments */
+  .flex-wrap {
+    justify-content: center;
+  }
+
+  /* Mobile category tabs */
+  .flex.overflow-x-auto {
+    padding: 0 1rem;
+  }
+
+  .flex-shrink-0 {
+    min-width: auto;
+    padding: 0.75rem 1rem;
+  }
+}
+
+/* Enhanced tablet responsiveness */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .grid.grid-cols-1.sm\\:grid-cols-2.lg\\:grid-cols-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .ingredient-modal .max-w-lg {
+    max-width: 600px;
+  }
+}
+
+/* Smooth transitions */
+* {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Focus styles for accessibility */
+button:focus,
+input:focus,
+select:focus {
+  outline: 2px solid #06b6d4;
+  outline-offset: 2px;
+}
+
+/* Custom scrollbar for modal */
+.overflow-y-auto::-webkit-scrollbar {
+  width: 6px;
+}
+
+.overflow-y-auto::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+.overflow-y-auto::-webkit-scrollbar-thumb {
+  background: #06b6d4;
+  border-radius: 3px;
+}
+
+.overflow-y-auto::-webkit-scrollbar-thumb:hover {
+  background: #0891b2;
+}
+
+/* Visual feedback styles for add button animation */
+.add-button {
+  transition: all 0.5s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.add-button.added {
+  background-color: #4caf50 !important;
+  color: white !important;
+  transform: scale(1.05);
+}
+
+.add-button.added::after {
+  content: "✓";
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: bold;
+}
+
+/* Pulse animation for added state */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.add-button.added {
+  animation: pulse 0.6s ease-in-out;
+}
