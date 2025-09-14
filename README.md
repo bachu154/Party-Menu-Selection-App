@@ -89,7 +89,3 @@ Deployed App → Party Menu App
  Code pushed to public GitHub repo
 
  Documentation with README.md
-
-
-🔗 LinkedIn
- | GitHub
