@@ -1,30 +1,95 @@
-# Party menu app
+🎉 Party Menu App
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+A simple and interactive Party Menu Web Application built with Next.js, designed to display menu items in a clean, responsive, and user-friendly interface.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/cp2446858-1411s-projects/v0-party-menu-app)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/Yh5qeo7dd6B)
+Deployed on Vercel → Live Demo
 
-## Overview
+🚀 Features
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+📱 Responsive Design – Works across desktop, tablet, and mobile.
 
-## Deployment
+🍴 Menu Sections – Displays food/drink categories clearly.
 
-Your project is live at:
+🎨 Clean UI – Styled to match the given design guidelines.
 
-**[https://vercel.com/cp2446858-1411s-projects/v0-party-menu-app](https://vercel.com/cp2446858-1411s-projects/v0-party-menu-app)**
+⚡ Fast & Optimized – Built with Next.js for performance.
 
-## Build your app
+☁️ Deployed on Vercel – Continuous deployment from GitHub.
 
-Continue building your app on:
+🛠️ Tech Stack
 
-**[https://v0.app/chat/projects/Yh5qeo7dd6B](https://v0.app/chat/projects/Yh5qeo7dd6B)**
+Framework: Next.js
 
-## How It Works
+Language: JavaScript (ES6+)
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+Styling: CSS / Tailwind CSS (depending on assignment)
+
+Hosting: Vercel
+
+📂 Project Structure
+party-menu-app/
+├── public/            # Static assets (images, icons, etc.)
+├── pages/             # Next.js pages (routes)
+│   ├── index.js       # Home page
+│   └── _app.js        # Global app config
+├── styles/            # Global and component-level styles
+├── components/        # Reusable UI components
+├── package.json       # Dependencies and scripts
+└── README.md          # Project documentation
+
+⚙️ Installation & Setup
+
+Clone the repo:
+
+git clone https://github.com/bachu154/party-menu-app.git
+
+cd party-menu-app
+
+Install dependencies:
+
+npm install
+
+
+Run the development server:
+
+npm run dev
+
+Build for production:
+
+npm run build
+
+npm start
+
+🌐 Deployment
+
+This project is deployed on Vercel.
+
+Deployment settings used:
+
+Framework Preset: Next.js
+
+Root Directory: ./
+
+Build Command: npm run build
+
+Output Directory: .next (default)
+
+Install Command: npm install
+
+Deployed App → Party Menu App
+
+✅ Assignment Completion Checklist
+
+ Implemented menu design in Next.js
+
+ Responsive layout for all devices
+
+ Correct build & deploy on Vercel
+
+ Code pushed to public GitHub repo
+
+ Documentation with README.md
+
+
+🔗 LinkedIn
+ | GitHub
